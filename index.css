@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+   
+}
+
+.circle-container {
+background: -webkit-linear-gradient(-19deg, rgb(121, 255, 254), rgb(241, 255, 198));
+background: linear-gradient(-19deg, rgb(121, 255, 254), rgb(241, 255, 198));
+height: 500px;
+width: 550px;
+display:flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+cursor: grab;
+
+}
+
+.circle {
+
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin:15px;
+    box-shadow: 3px 3px 10px inset;
+  
+}
+
+.mole {
+ background-image: url(./pic1.png);
+ background-size:contain;
+
+
+}
+
